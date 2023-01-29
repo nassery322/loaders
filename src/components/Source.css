@@ -1,0 +1,36 @@
+
+.html-section {
+  position: relative;
+  color: white;
+  height: 120px;
+  padding: 8px;
+  word-wrap: normal;
+  overflow-y: auto;
+  border-bottom: 0.5px solid white;
+  overflow-x: hidden;
+  overflow-wrap: normal;
+  width: 100%;
+}
+.source-sections button{
+    background-color: transparent; border: none; cursor: pointer; font-size: 1.5rem;
+    color:rgb(227, 217, 217);
+}
+.css-section {
+  padding: 8px;
+  color: white;
+}
+pre {
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.html-interface,
+.css-interface {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(55, 82, 192);
+}
+
+.html-copy, .css-copy{
+    float: right;
+}
